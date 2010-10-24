@@ -1,0 +1,180 @@
+/*************************************************/
+/*	
+/*	@name			:	MAIN.css
+/*	@file			:	css/main.css
+/*	@author			:	Gaëtan de Villèle
+/*	@description 	: 
+/*	
+/*************************************************/
+
+
+/*
+/*	HTML TAGS
+/*******************************/
+body
+{
+	background-color 	: #000000;
+	/*background-image 	: url('http://i19.photobucket.com/albums/b184/nintendo_rox653/matrixbg.gif');*/
+	background-repeat   : no-repeat;
+	background-position : left top;
+	
+	font-family			: verdana;
+	color 				: white;
+}
+
+a
+{
+	text-decoration 	: none;
+	color 				: white;
+}
+a:hover
+{
+	color 				: yellow;
+}
+
+h1
+{
+	font-family 		: helvetica;
+	font-size			: 40px;
+}
+
+
+/*
+/*	PAGE BLOCKS
+/*******************************/
+#wrapper
+{
+	width : 1000px;
+	margin : 0 auto;
+}
+
+
+#center
+{
+	min-height : 500px;
+	
+	
+}
+
+#bottom
+{
+	
+}
+
+
+
+
+
+
+/**************************************************/
+/*
+/*	TOP CONTENT
+/*
+/**************************************************/
+#top
+{
+	height : 20px;
+}
+
+	#top #connectBar
+	{
+		height 				: 30px;
+	}
+	
+	#top #logo
+	{
+		width 				: 300px;
+		height 				: 100px;
+		box-sizing			: border-box;
+		-webkit-box-sizing	: border-box;
+		-moz-box-sizing		: border-box;
+		-o-box-sizing		: border-box;
+		float 				: left;
+	
+		border 				: 1px solid white;
+		background-color 	: black;
+		padding-top 		: 30px;
+	
+		font 				: Helvetica;
+		font-size 			: 30px;
+		text-align 			: center;
+	}
+	
+	#top #main_menu
+	{
+		width 				: 700px;
+		height				: 100px;
+		box-sizing			: border-box;
+		-webkit-box-sizing	: border-box;
+		-moz-box-sizing		: border-box;
+		-o-box-sizing		: border-box;
+		float 				: left;	
+		border 				: 1px solid white;
+		background-color 	: black;
+		padding-top 		: 30px;
+		padding-left 		: 100px;
+	
+		font 				: Helvetica;
+		font-size 			: 23px;
+		text-align 			: center;
+	}
+ 		#top #main_menu a
+ 		{
+			display 		: block;
+			float 			: left;
+			padding-right 	: 20px;
+			padding-left 	: 20px;
+			padding-top 	: 7px;
+			padding-bottom 	: 7px;
+			border-right 	: 1px solid grey;
+			color 			: #aaaaaa;
+ 		}
+		#top #main_menu a:hover
+ 		{
+			color 			: #ffffff;
+ 		}
+
+
+
+         
+        
+/**************************************************/
+/*      
+/*	CENTER CONTENT
+/*      
+/**************************************************/
+#center
+{
+	padding-bottom : 20px;
+}
+
+
+
+
+
+
+
+
+
+
+         
+        
+/**************************************************/
+/*      
+/*	CENTER CONTENT
+/*      
+/**************************************************/
+#bottom
+{
+	
+}
+
+	#bottom #footer
+	{
+		border : 1px solid white;
+		padding : 10px;
+		text-align : center;
+	}
+
+
+

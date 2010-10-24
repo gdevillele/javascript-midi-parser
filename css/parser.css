@@ -1,0 +1,32 @@
+/**************************************************/
+/*
+/*
+/*
+/*
+/*
+/*
+/**************************************************/
+
+
+
+#center
+{
+	color : white;
+}
+
+	#center #parseButton
+	{
+		width : 300px;
+		height : 70px;
+		font-size : 45px;
+	}
+	
+	#center #debug
+	{
+		font-family : monospace;
+		font-size : 18px;
+		border : 1px solid #666;
+		padding : 20px;
+		margin-top : 20px;
+		min-height : 300px;
+	}
