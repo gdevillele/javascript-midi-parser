@@ -13,11 +13,10 @@ parser.main = new function()
 	///////////////////////////////////////////////
 	//	ATTRIBUTES
 	///////////////////////////////////////////////
-	this.m = new Array();
+	this.hex = new Array();
 	this.midi;
 	this.dec = "";
 	this.bin = "";
-	this.hex = "";
 	this.hexTab = new Array();
 	
 	//	MIDI infos
@@ -51,22 +50,13 @@ parser.main = new function()
 		var i;
 		for(i=0; i < this.midi.length ; i++)
 		{
-			this.m[i] = this.midi.charCodeAt(i).toString(16).toUpperCase();
-			this.hex += this.midi.charCodeAt(i).toString(16).toUpperCase()+" ";
+			//this.hex[i] = this.midi.charCodeAt(i).toString(16).toUpperCase();
+			this.hex[i] = this.dec2hex(this.midi.charCodeAt(i)).toUpperCase();
+			$("div#debug").html($("div#debug").html()+" "+this.hex[i]);
 		}
-		$("div#debug").html(this.hex);
-		console.log(this.m[13]);
-		//$("div#debug").html(this.hex);
+		//console.log(this.hex[13]);
 		
 		
-		
-		//var bp = new BinaryParser(true, true);
-		//$("div#debug").html(bp.decodeInt(this.midi, 1, false).toString(16));
-		
-		//console.debug(this.midi.charCodeAt(13));
-		//console.debug(this.dec2hex(this.midi.charCodeAt(13)));
-		//console.debug(this.hex);
-		//console.debug(this.midi);
 		//$("div#debug").html(this.hex);
 	};
 	
