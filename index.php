@@ -12,7 +12,6 @@
 		<!--******************************************** JAVASCRIPT ******************************************-->
 		<!-- Lib -->
 		<script type="text/javascript" src="lib/jquery/jquery.js"></script>
-		<script type="text/javascript" src="js/BinaryParser.js"></script>
 		
 		<!-- JS to parse-->		
 		<script type="text/javascript" src="js/parser.js"></script>
@@ -21,6 +20,7 @@
 		
 		<!--********************************************* MIDI ***********************************************-->
 		<script type="audio/midi" id="midiFile" src="notes.mid"></script>
+		<script type="audio/midi" id="midiFile2" src="parse_me.mid"></script>
 				
 	</head>
 	

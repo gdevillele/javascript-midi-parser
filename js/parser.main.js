@@ -14,7 +14,6 @@ parser.main = new function()
 	//	ATTRIBUTES
 	///////////////////////////////////////////////
 	this.m = new Array();
-	this.m['tab'] = new Array();
 	this.midi;
 	this.dec = "";
 	this.bin = "";
@@ -52,14 +51,11 @@ parser.main = new function()
 		var i;
 		for(i=0; i < this.midi.length ; i++)
 		{
-			//this.m['tab'][i] = this.midi.charCodeAt(i).toString(16).toUpperCase();
-			//console.log(this.midi.charCodeAt(i).toString(16).toUpperCase());
-			//this.dec += this.midi.charCodeAt(i)+" ";
+			this.m[i] = this.midi.charCodeAt(i).toString(16).toUpperCase();
 			this.hex += this.midi.charCodeAt(i).toString(16).toUpperCase()+" ";
 		}
 		$("div#debug").html(this.hex);
-		
-		//console.log(this.hex);
+		console.log(this.m[13]);
 		//$("div#debug").html(this.hex);
 		
 		
